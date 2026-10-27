@@ -1,10 +1,12 @@
 :root {
-    --cor-texto: #1c1c1a;
-    --cor-texto-suave: #5f5e5a;
-    --cor-borda: #e2e0da;
-    --cor-fundo: #ffffff;
-    --cor-fundo-suave: #f5f3ee;
-    --cor-destaque: #000000;
+    --cor-primaria: #235852;
+    --cor-primaria-hover: #1a433e;
+    --fundo-da-secao-do-meio: #F4F5F4;
+    --fundo-de-cards-e-secao-hero: #ffffff;
+    --fundo-de-placeholders-de-imagem-e-tags: #E1E7E5;
+    --Fundo-do-rodape: #1D2220;
+    --texto-principal: #1C1F1E;
+    --Texto-secundario-e-subtitulos: #5E6562;
     --raio: 8px;
     --largura-maxima: 960px;
   }
@@ -18,8 +20,8 @@
   body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: var(--cor-texto);
-    background-color: var(--cor-fundo);
+    color: var(--texto-principal);
+    background-color: var(--fundo-da-secao-do-meio);
     line-height: 1.6;
   }
   
@@ -29,7 +31,7 @@
   }
   
   a:focus-visible {
-    outline: 2px solid var(--cor-destaque);
+    outline: 2px solid black;
     outline-offset: 3px;
   }
   .cabecalho {
@@ -40,7 +42,7 @@
     max-width: var(--largura-maxima);
     margin: 0 auto;
     padding: 20px 24px;
-    border-bottom: 1px solid var(--cor-borda);
+    border-bottom: 1px solid rgb(190, 180, 180);
   }
   
   .logo {
@@ -64,5 +66,5 @@
     gap: 24px;
     list-style: none;
     font-size: 15px;
-    color: var(--cor-texto-suave);
+    color: var(--Texto-secundario-e-subtitulos);
   }

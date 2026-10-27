@@ -1,36 +1,19 @@
-import './Main.css'
+import "./Main.css"
 
 function Main () {
-    return (
-        <main>
-        <section class="hero" id="hero">
-            <h1>Criamos Sites que funcionam</h1>
-            <p>Layouts Responsivos, rápidos e acessíveis para o seu negócio crescer na web</p>
-            <div class="acoes">
-                <a class="botao botao-cheio" href="#">Peça um Orçamento</a>
-                <a class="botao botao-vazado" href="#">Ver portfólio</a>
-            </div>
-        </section>
-        <section class="servicos" id="servicos">
-            <h2>Nossos serviços</h2>
-            <div class="grade-cards">
-                <article class="card">
-                    <h3>Design de Interface</h3>
-                    <p>Telas claras pensadas para o usuário.</p>
-                </article>
+    <main>
+        <div id="conteudo">
+            <p>LAGOA DA CONCEIÇÃO · FLORIANÓPOLIS</p>
+            <h1>Café coado, vista para a lagoa.</h1>
+            <p> Grãos de pequenos produtores do sul do Brasil, pães de fermentação natural 
+                e doces feitos todos os dias aqui na casa.</p>
+            <button id="btn-conteudo1">Ver Cardápio</button>
+            <button id="btn-conteudo2">Fale com a gente</button>
+        </div>
 
-                <article class="card">
-                    <h3>Responsividade</h3>
-                    <p>O mesmo site em qualquer tela.</p>
-                </article>
+        <div id="midia">
+            <img src="" alt="Balcão do café com a lagoa ao fundo." />
 
-                <article class="card">
-                    <h3>Performance</h3>
-                    <p>Páginas leves que carregam rápido.</p>
-                </article>
-            </div>
-        </section>
+        </div>
     </main>
-    )
 }
-export default Main

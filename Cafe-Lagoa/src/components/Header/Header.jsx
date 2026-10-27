@@ -1,10 +1,11 @@
 import "./Header.css"
+import cafe from "./coffee.png"
 
 function Header() {
     return ( 
     <header class="cabecalho">
     <div class="logo-container">
-      <img id="imglogo" src="#" alt="" />
+      <img id="imglogo" src={cafe} alt="" />
       <span class="logo">Café Lagoa</span>
     </div>
     <nav>
