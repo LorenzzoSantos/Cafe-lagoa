@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --cor-primaria: #235852;
+    --cor-primaria-hover: #1a433e;
+    --fundo-da-secao-do-meio: #F4F5F4;
+    --fundo-de-cards-e-secao-hero: #ffffff;
+    --fundo-de-placeholders-de-imagem-e-tags: #E1E7E5;
+    --Fundo-do-rodape: #1D2220;
+    --texto-principal: #1C1F1E;
+    --Texto-secundario-e-subtitulos: #5E6562;
+    --raio: 8px;
+    --largura-maxima: 100%;
+  }
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+
+font-family: "Inter", sans-serif;
+font-family: "Plus Jakarta Sans", sans-serif;
+font-family: "Outfit", sans-serif;
+
+*/
+
+#conteudo p {
+    color: var(--cor-primaria);
+}
+
+#titulo-lagoa {
+    font-family: "Outfit", sans-serif;
+}
+
+#conteudo h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#texto-descritivo {
+    font-family: "Inter", sans-serif;
+}
+
+#btn-conteudo1, #btn-conteudo1 {
+    font-family: "Inter", sans-serif;
+}
