@@ -6,7 +6,7 @@ function Header() {
     <header className="cabecalho">
     <div className="logo-container">
       <img id="imglogo" src={cafe} alt="" />
-      <span className="logo">Café Lagoa</span>
+      <span className="logo">Café Zuvido</span>
     </div>
     <nav>
       <ul className="menu">
